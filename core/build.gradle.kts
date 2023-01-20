@@ -70,6 +70,7 @@ protobuf {
     protoc {
         // Download from repositories
 //        artifact = "com.google.protobuf:protoc:${"protobuf".v}"
+        // 设配m1芯片的macbook编译报错部分如下
         artifact = if (osdetector.os == "osx") {
             "com.google.protobuf:protoc:${"protobuf".v}:osx-x86_64"
         } else {
