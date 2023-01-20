@@ -1,0 +1,24 @@
+**/.editorconfig
+*~
+/.idea
+*.iml
+settings.xml
+.classpath.txt
+.fullclasspath.txt
+
+# eclipse
+.project
+.buildpath
+.classpath
+.settings
+.checkstyle
+
+/.mvn/wrapper/maven-wrapper.jar
+
+/.gradle
+/build/
+/*/build/
+/shaded/*/build/
+/target/
+/*/target/
+/shaded/*/target/
